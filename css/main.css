@@ -11,29 +11,68 @@ body {
 h1 {
   font-family: "Sigmar One", cursive;
   text-align: center;
-  color: #cc1465;
+  color: #b20953;
   font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Sigmar One", cursive;
+  text-align: left;
+  color: #b20953;
+  font-size: 1.875rem;
+}
+
+main {
+  padding: 0 .75em;
 }
 
 ul {
   text-align: center;
   list-style-type: none;
-  padding: .75em;
+  padding: 0 .75em;
+  margin: 0;
 }
 
 div {
-    background-color: #ffe500;
+  padding: 0 0 .75em;
+  background-color: #ffe500;
 }
 
 ul li {
   display: inline-block;
 }
 
-.btn {
+a {
   background-color: #b2a212;
   padding: .2em .5em .3em;
   border: 0;
   border-radius: 4px;
   text-decoration: none;
   color: white;
+  font-size: 1.125rem;
+}
+
+a:hover {
+  background-color: #b20953;
+}
+
+ul .current {
+  background-color: #cc1465;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe500;
+  font-size: .75rem;
+}
+
+.two {
+  text-align: left;
+  font-size: 1.125rem;
+  padding: 0 .75em;
+}
+
+img {
+  padding: 0 .75em;
 }
