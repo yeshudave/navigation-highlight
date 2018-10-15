@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 h1 {
   font-family: "Sigmar One", cursive;
   text-align: center;
@@ -34,7 +38,7 @@ ul {
   margin: 0;
 }
 
-div {
+.heading {
   padding: 0 0 .75em;
   background-color: #ffe500;
 }
@@ -74,5 +78,10 @@ footer {
 }
 
 img {
+  display: block;
+  width: 100%;
+}
+
+.three {
   padding: 0 .75em;
 }
